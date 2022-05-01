@@ -1,0 +1,112 @@
+ @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* -------------------------------------------- */
+/* base styles */
+/* -------------------------------------------- */
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+
+/* -------------------------------------------- */
+/* logo*/
+/* -------------------------------------------- */
+.logo{
+  width: 40px;
+  height: 40px;
+  padding: 1em
+}
+
+
+/* -------------------------------------------- */
+/* navigation Bar*/
+/* -------------------------------------------- */
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.new-blog:hover{
+  box-shadow: 2px 5px 4px gray;
+} 
+
+
+/* -------------------------------------------- */
+/* website name and links in the navbar */
+/* -------------------------------------------- */
+.navbar h1 {
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  
+}
+.navbar a:hover {
+  color: #c13e66;
+}
+
+
+/* -------------------------------------------- */
+/* contents below the navbar */
+/* -------------------------------------------- */
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+} 
+
+
+/* -------------------------------------------- */
+/* blog title */
+/* -------------------------------------------- */
+.heading{
+  color:#f1356d
+}
+
+
+/* -------------------------------------------- */
+/* individual blog box */
+/* -------------------------------------------- */
+.box-preview{
+  align-items: center;
+  display:flex;
+  padding:1em ;
+  margin-bottom: 2em;
+}
+.box-preview:hover{
+  border-radius: 1em;
+  box-shadow: 1px 2px 5px gray;
+}
+
+
+/* -------------------------------------------- */
+/* delete button inside the blog box */
+/* -------------------------------------------- */
+.delete{
+  margin-left: auto;
+  margin-right:2em;
+}
+.delete-btn{
+  align-items: center;
+  color:rgb(221, 20, 20);
+  background-color: white;
+  border-radius: 0.5em;
+  border: none;
+  padding:0.5em 1em;
+}
+.delete-btn:hover{
+  box-shadow: 2px 5px 10px gray;
+  color:#fffdfd;
+  background-color:rgb(249, 1, 1);
+}
+
