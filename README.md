@@ -1,7 +1,7 @@
 # Blog-Project
 It is a practicing project from the youtuber 'Coding Ninja'
 
-1. do "npm install" or "yarn install"
+do```npm install``` or ```yarn install```
 
 ## to run the web
 
@@ -11,6 +11,6 @@ It is a practicing project from the youtuber 'Coding Ninja'
 
 in a new command prompt type this command(make sure that you are inside the project folder)
 
-``` **npx json-server --watch data/db.json --port 8000** ```
+```npx json-server --watch data/db.json --port 8000```
 
 the --port should be different, that the current local web is running in the **port 3000**
