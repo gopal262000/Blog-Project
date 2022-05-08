@@ -7,6 +7,7 @@
   margin: 0;
   font-family: "Quicksand";
   color: #333;
+  background-color: #f2e6e6;
 }
 
 
@@ -98,8 +99,8 @@ blog title
 }
 .delete-btn{
   align-items: center;
-  color:rgb(221, 20, 20);
-  background-color: white;
+  color:rgb(0, 0, 0);
+  background-color: #f2e6e6;
   border-radius: 0.5em;
   border: none;
   padding:0.5em 1em;
@@ -107,6 +108,13 @@ blog title
 .delete-btn:hover{
   box-shadow: 2px 5px 10px gray;
   color:#fffdfd;
-  background-color:rgb(249, 1, 1);
+  background-color:rgb(68, 68, 68);
 }
 
+
+/* ----------------------------------------------------------------------------------------------------*/
+/* Hidden new blog text*/
+/* ----------------------------------------------------------------------------------------------------*/
+.hidden-new:hover{
+  color: black;
+}

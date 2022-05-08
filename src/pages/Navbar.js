@@ -13,12 +13,11 @@ const Navbar = () => {
           className="new-blog"
           href="/create"
           style={{
-            color: "white",
-            backgroundColor: "#f1356d",
+            color: "#f2e6e6",
             borderRadius: "8px",
           }}
         >
-          New Blog
+          ➕ <span className="hidden-new">New</span>
         </a>
       </div>
     </nav>
