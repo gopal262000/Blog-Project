@@ -11,7 +11,7 @@ function App() {
         <Navbar />
         <div className="content">
           <Routes>
-            <Route exact path="/" element={<Home />} />
+            <Route exact path="/blogs" element={<Home />} />
             <Route path="/create" element={<Create />} />
             <Route path="/blogs/:id" element={<Blogs />} />
           </Routes>

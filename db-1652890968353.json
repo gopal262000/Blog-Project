@@ -1,31 +1,31 @@
 {
   "blogs": [
     {
-      "title": "🔥 My new Website",
+      "title": "My new Website",
       "body": "that contains some dummy informationI have to make this tutorial to at its end,I have to make this tutorial to at its end,I have to make this tutorial to at its end,I have to make this tutorial to at its end,",
       "author": "Mario",
       "id": 1
     },
     {
-      "title": "🎸 I Love React",
+      "title": "I Love React",
       "body": " I have to make this tutorial to at its endI have to make this tutorial to at its endI have to make this tutorial to at its endI have to make this tutorial to at its endI have to make this tutorial to at its endI have to make this tutorial to at its end",
       "author": "Gopal",
       "id": 2
     },
     {
-      "title": "📌 Some Flask Restful",
+      "title": "Some Flask Restful",
       "body": "The api that servers many benefits, I have to make this tutorial to at its end,I have to make this tutorial to at its end,I have to make this tutorial to at its end, ",
       "author": "Gopal",
       "id": 3
     },
     {
-      "title": "⛑️ Some Flask Restful",
+      "title": "Some Flask Restful",
       "body": "The api that servers many benefitsI have to make this tutorial to at its end,I have to make this tutorial to at its end,I have to make this tutorial to at its end,",
       "author": "Gopal",
       "id": 4
     },
     {
-      "title": "🥩 Some Flask Restful",
+      "title": "Some Flask Restful",
       "body": "The api that servers many benefitsI have to make this tutorial to at its end,I have to make this tutorial to at its end,I have to make this tutorial to at its end,I have to make this tutorial to at its end,",
       "author": "Gopal",
       "id": 5
