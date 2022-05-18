@@ -73,6 +73,9 @@ blog title
 .heading{
   color:#f1356d
 }
+.heading:hover{
+  color:rgb(213, 44, 171);
+}
 
 
 /* ----------------------------------------------------------------------------------------------------*/
@@ -88,7 +91,9 @@ blog title
   border-radius: 1em;
   box-shadow: 1px 2px 5px gray;
 }
-
+.box-preview a{
+  text-decoration: none;
+}
 
 /* ----------------------------------------------------------------------------------------------------*/
 /* delete button inside the blog box */

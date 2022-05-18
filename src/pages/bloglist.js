@@ -1,4 +1,5 @@
 import { BiTrash } from "react-icons/bi";
+import { Link } from "react-router-dom";
 
 const BlogList = ({ blogs, title, handleDelete }) => {
   return (
@@ -8,7 +9,9 @@ const BlogList = ({ blogs, title, handleDelete }) => {
       {blogs.map((blog) => (
         <div className="box-preview" key={blog.id}>
           <div>
-            <h2 className="heading">🎸 {blog.title}</h2>
+            <Link to={`/blogs/${blog.id}`}>
+              <h2 className="heading">🎸 {blog.title}</h2>
+            </Link>
             <body>{blog.body}</body>
             <h4>Written by {blog.author}</h4>
           </div>

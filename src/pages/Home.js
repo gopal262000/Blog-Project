@@ -5,7 +5,7 @@ const Home = () => {
   const {data: blogs, isloading, error, handleDelete} = useFetch("http://localhost:8000/blogs")
 
   return (
-    <div>
+    <>
       {error && <div>{error}</div>}
       {isloading ? (
         <div>loading...</div>
@@ -18,7 +18,7 @@ const Home = () => {
           />
         )
       )}
-    </div>
+    </>
   );
 };
 
