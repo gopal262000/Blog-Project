@@ -1,5 +1,5 @@
 # Blog-Project
-It is a practicing project from the youtuber 'Coding Ninja'
+It is a practicing project from the youtuber 'The Net Ninja'
 
 do```npm install``` or ```yarn install```
 
