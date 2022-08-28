@@ -123,3 +123,48 @@ blog title
 .hidden-new:hover{
   color: black;
 }
+
+/* ----------------------------------------------------------------------------------------------------*/
+/* individual blogs*/
+/* ----------------------------------------------------------------------------------------------------*/
+.blog h3{
+  padding: 1em 2em;
+}
+
+.blog p{
+  color:#c13e66;
+  padding-left: 2em;
+}
+
+/* ----------------------------------------------------------------------------------------------------*/
+/* New Blog form*/
+/* ----------------------------------------------------------------------------------------------------*/
+.newblogs{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.newblogs label{
+  text-align: left;
+  display: block;
+  margin-bottom: 0.5em;
+  color: #f1356d;
+  font-size: 20px;
+}
+
+.newblogs input, .newblogs textarea, .newblogs select{
+  width: 100%;
+  font-size: medium;
+  padding: 6px 10px;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.newblogs button{
+  background: #f1356d;
+  color:#f2e6e6;
+  border: 0;
+  padding: 0.5em;
+  border-radius: 8px;
+  cursor: pointer;
+}

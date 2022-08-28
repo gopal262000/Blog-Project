@@ -1,0 +1,29 @@
+.blogform{
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .blogform label{
+    text-align: left;
+    display: block;
+    margin-bottom: 0.5em;
+    color: #f1356d;
+    font-size: 20px;
+  }
+  
+  .blogform input, .blogform textarea, .blogform select{
+    width: 100%;
+    font-size: medium;
+    padding: 6px 10px;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+  
+  .blogform button{
+    background: #f1356d;
+    color:#f2e6e6;
+    border: 0;
+    padding: 0.5em;
+    border-radius: 8px;
+    cursor: pointer;
+  }
